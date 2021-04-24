@@ -66,8 +66,6 @@ main {
 	background-repeat:inherit;
 } 
 
-
-
 #sobre {    
 	display: flex;
 	justify-content: space-around;
@@ -94,6 +92,7 @@ main {
 	font-size: 18pt;
 	width: 600px;        
 	text-align: justify;
+	padding: 10px;
 }
 
 span {
@@ -107,23 +106,23 @@ em {
 	
 .foto-codigo {
 	width: 100%;
-	height: 300px;
+	height: 200px;
 }
 
 #skills-list {
 	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
-	margin-top: -4px;
+	margin-top: 3%;
 	align-items: center;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 250px;
 } 
 
-
 table { /*Formatação da tabela*/
 	margin: 20px 0 40px;
+	font-size: 18pt;
 }
 
 thead{ /*Formatação do cabeção da tabela*/
