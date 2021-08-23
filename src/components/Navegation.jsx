@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Aside() {
+function Navegation() {
   return (
     <aside>
       <FontAwesomeIcon icon={faBars} />
@@ -31,4 +31,4 @@ function Aside() {
   );
 }
 
-export default Aside;
+export default Navegation;
