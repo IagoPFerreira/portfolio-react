@@ -1,12 +1,12 @@
 import React from 'react';
 import Navegation from '../components/Navegation';
 
-function Contact() {
+function Projects() {
   return (
-    <>
+    <div>
       <Navegation />
-    </>
+    </div>
   );
 }
 
-export default Contact;
+export default Projects;
