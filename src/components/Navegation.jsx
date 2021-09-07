@@ -1,14 +1,17 @@
-import { faHome, faBars, faAt } from '@fortawesome/free-solid-svg-icons';
-import { faNewspaper, faTimesCircle, faWindowMaximize } from '@fortawesome/free-regular-svg-icons';
+import { faHome, /* faBars */ faAt } from '@fortawesome/free-solid-svg-icons';
+import { faNewspaper, /* faTimesCircle */ faWindowMaximize } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import MenuButton from './MenuButton';
+import '../styles/Navegation.css';
 
 function Navegation() {
   return (
     <aside>
-      <FontAwesomeIcon icon={faBars} />
-      <FontAwesomeIcon icon={faTimesCircle} />
+      {/* <FontAwesomeIcon icon={faBars} />
+      <FontAwesomeIcon icon={faTimesCircle} /> */}
+      <MenuButton />
       <p>Navigation button</p>
       <Link to="/">
         <FontAwesomeIcon icon={faHome} />
