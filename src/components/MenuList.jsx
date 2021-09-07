@@ -6,9 +6,8 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 function MenuList({ display }) {
-  console.log(display);
   return (
-    <ul style={{ display }}>
+    <ul style={{ display }} className="menu-icons">
       <li>
         <Link to="/">
           <FontAwesomeIcon icon={faHome} />
