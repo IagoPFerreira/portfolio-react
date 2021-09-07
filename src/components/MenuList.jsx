@@ -3,10 +3,12 @@ import { faHome, /* faBars */ faAt } from '@fortawesome/free-solid-svg-icons';
 import { faNewspaper, /* faTimesCircle */ faWindowMaximize } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-function MenuList() {
+function MenuList({ display }) {
+  console.log(display);
   return (
-    <ul>
+    <ul style={{ display }}>
       <li>
         <Link to="/">
           <FontAwesomeIcon icon={faHome} />
@@ -34,5 +36,9 @@ function MenuList() {
     </ul>
   );
 }
+
+MenuList.propTypes = {
+  display: PropTypes.bool,
+}.isRequired;
 
 export default MenuList;
