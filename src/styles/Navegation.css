@@ -1,22 +1,52 @@
-.container {
+.menu {
+  align-items: center;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* z-index: 5; */
+}
+
+.menu a{
+  
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 18pt;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 10%;
+}
+
+.link-name {
+  font-size: 10pt;
+}
+
+/* .container {
+  background-color: #2bafb9;
   border: 0.5px solid black;
   border-radius: 50%;
   cursor: pointer;
   display: inline-block;
   padding: 7px 10px;
-}
+  position: fixed;
+  right: 0;
+  z-index: 20;
+} */
 
-.bar1, .bar2, .bar3 {
+/* .bar1, .bar2, .bar3 {
   background-color: #333;
   height: 5px;
   margin: 6px 0;
   transition: 0.4s;
+  position: relative;
   width: 35px;
 }
 
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-8px, 7px);
 }
 
 .change .bar2 {opacity: 0;}
@@ -24,13 +54,31 @@
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
-}
+} */
 
-.menu-icons {
+/* .menu-icons {
   list-style: none;
-}
+  transition: opacity 500ms, transform 500ms;
+  animation: show 2s;
+} */
 
-.menu-icons li a{
-  color: black;
-  text-decoration: none;
-}
+/* .menu-icons li {
+  width: fit-content;
+} */
+
+/* .menu-icons li a svg {
+  margin-right: 15px;
+} */
+
+/* .show {
+  background-color: #2bafb9cc;
+  border-radius: 10px;
+  padding: 15px;
+  position: absolute;
+} */
+
+/* .hide {
+  opacity: 0;
+  position: absolute;
+  transform: translateX(100%);
+} */
