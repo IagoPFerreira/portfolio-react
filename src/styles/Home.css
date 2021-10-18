@@ -1,0 +1,28 @@
+.App {
+  /* background: url('../imagens/codigo-1000.jpg'); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-color: cornflowerblue;
+  /* display: flex; */
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header {
+  align-items: center;
+  background-color: brown;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  font-size: 20pt;
+  height: 40%;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.header h1, .header h3 {
+  /* background-color: #2bafb9af; */
+  border-radius: 5px;
+  padding: 2px;
+}
