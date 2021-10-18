@@ -3,8 +3,10 @@
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
   background-color: cornflowerblue;
-  /* display: flex; */
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 1000px;
   justify-content: space-between;
   width: 100%;
 }
@@ -16,9 +18,11 @@
   display: flex;
   flex-direction: row;
   font-size: 20pt;
-  height: 40%;
+  height: 60px;
   justify-content: space-around;
   padding: 10px;
+  position: fixed;
+  width: 98%;
 }
 
 .header h1, .header h3 {
@@ -26,3 +30,8 @@
   border-radius: 5px;
   padding: 2px;
 }
+
+#main {
+  margin-top: 90px;
+}
+
