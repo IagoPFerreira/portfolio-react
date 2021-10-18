@@ -1,10 +1,10 @@
 import React from 'react';
+import Navegation from './Navegation';
 
 function Header() {
   return (
-    <header>
-      <h1>Iago de Paula Ferreira</h1>
-      <h3>Desenvolvedor Júnior</h3>
+    <header className="header">
+      <Navegation />
     </header>
   );
 }
