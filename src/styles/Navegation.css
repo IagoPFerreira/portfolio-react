@@ -1,14 +1,19 @@
-.menu {
+.menu, .menu ul  {
   align-items: center;
   background-color: blueviolet;
   display: flex;
   justify-content: space-around;
+  padding: 5px;
   width: 100%;
   /* z-index: 5; */
 }
 
-.menu a{
-  
+.nav-item {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-item a{
   align-items: center;
   color: black;
   display: flex;
@@ -16,11 +21,15 @@
   font-size: 18pt;
   justify-content: space-around;
   text-decoration: none;
-  width: 10%;
+  /* width: 10%; */
 }
 
 .link-name {
   font-size: 10pt;
+}
+
+.nav-item > .active {
+  border-bottom: 1px solid white;
 }
 
 /* .container {

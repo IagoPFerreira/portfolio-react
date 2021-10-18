@@ -22,52 +22,60 @@ function Navegation() {
 
   return (
     <nav className="menu">
-      {/* <MenuButton onClick={changeClassList} /> */}
-      {/* <MenuList /> */}
-      <Link
-        activeClass="active"
-        to="main"
-        spy
-        smooth
-        offset={-100}
-        duration={500}
-      >
-        <FontAwesomeIcon icon={faHome} />
-        <p className="link-name">Home</p>
-      </Link>
-      <Link
-        activeClass="active"
-        to="about"
-        spy
-        smooth
-        offset={-80}
-        duration={500}
-      >
-        <FontAwesomeIcon icon={faNewspaper} />
-        <p className="link-name">Sobre</p>
-      </Link>
-      <Link
-        activeClass="active"
-        to="projects"
-        spy
-        smooth
-        offset={-80}
-        duration={500}
-      >
-        <FontAwesomeIcon icon={faWindowMaximize} />
-        <p className="link-name">Projetos</p>
-      </Link>
-      <Link
-        activeClass="active"
-        to="contact"
-        spy
-        smooth
-        offset={-80}
-        duration={500}
-      >
-        <FontAwesomeIcon icon={faAt} />
-        <p className="link-name">Contatos</p>
-      </Link>
+      <ul>
+        <li className="nav-item">
+          <Link
+            activeClass="active"
+            to="main"
+            spy
+            smooth
+            offset={-100}
+            duration={500}
+          >
+            <FontAwesomeIcon icon={faHome} />
+            <p className="link-name">Home</p>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            activeClass="active"
+            to="about"
+            spy
+            smooth
+            offset={-80}
+            duration={500}
+          >
+            <FontAwesomeIcon icon={faNewspaper} />
+            <p className="link-name">Sobre</p>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            activeClass="active"
+            to="projects"
+            spy
+            smooth
+            offset={-80}
+            duration={500}
+          >
+            <FontAwesomeIcon icon={faWindowMaximize} />
+            <p className="link-name">Projetos</p>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            activeClass="active"
+            to="contact"
+            spy
+            smooth
+            offset={-80}
+            duration={500}
+          >
+            <FontAwesomeIcon icon={faAt} />
+            <p className="link-name">Contatos</p>
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }
