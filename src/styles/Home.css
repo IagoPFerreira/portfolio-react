@@ -41,7 +41,7 @@
 }
 
 #projects {
-  background-color: rgb(90, 0, 155);
+  background-color: rgb(25, 112, 4);
 }
 
 .tech-icon {
@@ -96,3 +96,32 @@ td {
 /* tr {
   border-bottom: 2px solid black;
 } */
+
+.projects-navegation {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.project-card {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+  margin: 2% 0;
+  width: 30%;
+}
+
+.repo-links {
+  color: black;
+  text-decoration: none;
+}
