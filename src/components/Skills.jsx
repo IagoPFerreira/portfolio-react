@@ -6,18 +6,22 @@ function Skills({ skills }) {
   return (
     <table>
       <thead>
-        { stack }
+        <th>
+          { stack }
+        </th>
       </thead>
       <tbody>
-        {skills[stack].map(({ tech, image }) => (
-          <tr>
-            <td>{ tech }</td>
-            <td>
-              <img className="tech-icon" alt="Tech-HTML" src={image} />
-
-            </td>
-          </tr>
-        ))}
+        {skills[stack].map(({ tech, image }, index) => {
+          const line = index % 2 === 0 ? 'par' : 'odd';
+          return (
+            <tr className={`${line}`}>
+              <td>
+                { tech }
+                <img className="tech-icon" alt={`Tech-${tech}`} src={image} />
+              </td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   );
