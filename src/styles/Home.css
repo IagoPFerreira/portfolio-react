@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 1000px;
+  height: 100%;
   justify-content: space-between;
   width: 100%;
 }
@@ -32,7 +32,16 @@
 }
 
 #main {
-  margin-top: 90px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+#about {
+  background-color: rgb(138, 103, 15);
+}
+
+#projects {
+  background-color: rgb(90, 0, 155);
 }
 
 .tech-icon {
@@ -40,3 +49,50 @@
   height: 50px;
   width: 50px;
 }
+
+.skills {
+  align-items: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skills-tables {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-tables table {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 0;
+}
+
+thead {
+  display: flex;
+  justify-content: center;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px 15px;
+}
+
+.par {
+  background-color: rgba(153, 153, 153, 0.322);
+  margin: 0;
+}
+
+td {
+  align-items: center;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 15px;
+}
+
+/* tr {
+  border-bottom: 2px solid black;
+} */

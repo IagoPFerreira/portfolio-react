@@ -119,7 +119,9 @@ function About() {
       </section>
       <section className="skills">
         <h4>Tech Stack</h4>
-        {techStack.map((tech) => <Skills skills={tech} />)}
+        <section className="skills-tables">
+          {techStack.map((tech) => <Skills skills={tech} />)}
+        </section>
       </section>
     </section>
   );
