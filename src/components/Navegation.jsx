@@ -2,7 +2,7 @@ import React/* ,  { useState } */ from 'react';
 // import MenuButton from './MenuButton';
 import '../styles/Navegation.css';
 // import MenuList from './MenuList';
-import { faHome, /* faBars */ faAt } from '@fortawesome/free-solid-svg-icons';
+import { faHome /* faBars */ /* faAt */ } from '@fortawesome/free-solid-svg-icons';
 import { faNewspaper, /* faTimesCircle */ faWindowMaximize } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { Link } from 'react-router-dom';
@@ -42,7 +42,7 @@ function Navegation() {
             to="about"
             spy
             smooth
-            offset={-80}
+            offset={-57}
             duration={500}
           >
             <FontAwesomeIcon icon={faNewspaper} />
@@ -55,24 +55,11 @@ function Navegation() {
             to="projects"
             spy
             smooth
-            offset={-80}
+            offset={-56}
             duration={500}
           >
             <FontAwesomeIcon icon={faWindowMaximize} />
             <p className="link-name">Projetos</p>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            activeClass="active"
-            to="contact"
-            spy
-            smooth
-            offset={-80}
-            duration={500}
-          >
-            <FontAwesomeIcon icon={faAt} />
-            <p className="link-name">Contatos</p>
           </Link>
         </li>
       </ul>
