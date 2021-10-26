@@ -7,7 +7,7 @@ function Main() {
     <section id="home">
       <h1>Iago de Paula Ferreira</h1>
       <h3>Desenvolvedor Júnior</h3>
-      <Image src={profile} roundedCircle className="profile-picture" alt="" />
+      <Image src={profile} className="profile-picture" alt="" />
     </section>
   );
 }

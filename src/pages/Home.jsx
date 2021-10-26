@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/App.css';
+import '../styles/sections.css';
 import About from '../sections/About';
 import Main from '../sections/Main';
 import Projects from '../sections/Projects';

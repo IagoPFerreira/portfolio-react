@@ -18,7 +18,8 @@ function Navegation() {
           to="home"
           spy
           smooth
-          offset={-30}
+          offset={-28}
+          duration={200}
         >
           <FontAwesomeIcon icon={faHome} />
           <p className="link-name">Home</p>
@@ -30,7 +31,8 @@ function Navegation() {
           to="about"
           spy
           smooth
-          offset={-60}
+          offset={-26}
+          duration={200}
         >
           <FontAwesomeIcon icon={faNewspaper} />
           <p className="link-name">Sobre</p>
@@ -42,7 +44,8 @@ function Navegation() {
           to="projects"
           spy
           smooth
-          offset={-60}
+          offset={-25}
+          duration={200}
         >
           <FontAwesomeIcon icon={faWindowMaximize} />
           <p className="link-name">Projetos</p>

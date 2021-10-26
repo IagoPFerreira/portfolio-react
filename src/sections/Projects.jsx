@@ -7,7 +7,6 @@ function Projects() {
   const [modulo, setModulo] = useState('Fundamentos');
   return (
     <section id="projects">
-      <h2>Projetos</h2>
       <nav className="projects-navegation">
         {Object.keys(projectList).map((model) => <Button type="button" variant="secondary" value={model} onClick={({ target }) => setModulo(target.value)}>{model}</Button>)}
       </nav>

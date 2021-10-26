@@ -24,10 +24,9 @@
 
 .nav-item a{
   align-items: center;
-  color: black;
   display: flex;
   flex-direction: column;
-  font-size: 10pt;
+  font-size: 18pt;
   justify-content: space-around;
   text-decoration: none;
   /* width: 10%; */
@@ -35,6 +34,7 @@
 
 .link-name {
   font-size: 10pt;
+  color: rgb(230, 227, 227);
 }
 
 /* .container {
