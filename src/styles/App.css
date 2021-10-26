@@ -1,8 +1,6 @@
 .App {
-  /* background: url('../imagens/codigo-1000.jpg'); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
   background-color: cornflowerblue;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -11,33 +9,16 @@
   width: 100%;
 }
 
-.header, .footer {
-  align-items: center;
-  background-color: brown;
-  /* border-bottom: 1px solid rgba(110, 110, 110, 0.432); */
-  color: black;
-  display: flex;
-  flex-direction: row;
-  font-size: 20pt;
-  justify-content: space-around;
-  padding: 5px;
-  position: fixed;
-  width: 100%;
-}
-
-.footer {
-  top: 92%
-}
-
-.header h1, .header h3 {
-  /* background-color: #2bafb9af; */
-  border-radius: 5px;
-  padding: 2px;
+p, section {
+  margin: 0;
 }
 
 #home {
-  margin-top: 50px;
-  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  /* margin-bottom: 10px; */
   padding-top: 10px;
 }
 
@@ -161,6 +142,10 @@ td {
   margin-left: 3px;
 }
 
+.profile-picture {
+  height: 100px;
+  width: 100px;
+}
 
 /* 
 - rgb(0,54,236) azul escuro
