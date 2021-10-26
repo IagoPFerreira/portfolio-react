@@ -5,8 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
-    <footer id="contact">
-      <h2>Contato</h2>
+    <footer className="footer">
       <section className="contacts-container">
         <a href="https://github.com/IagoPFerreira" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} className="icon-contact" />
@@ -17,7 +16,7 @@ function Footer() {
         <p href="mailto:iago.pferreiravr@gmail.com" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faEnvelope} className="icon-contact" />
           {' '}
-          iago.pferreiravr@gmail.com
+          <span className="email">iago.pferreiravr@gmail.com</span>
         </p>
       </section>
     </footer>

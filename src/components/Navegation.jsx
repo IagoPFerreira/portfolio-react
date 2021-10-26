@@ -26,11 +26,11 @@ function Navegation() {
         <li className="nav-item">
           <Link
             activeClass="active"
-            to="main"
+            to="home"
             spy
             smooth
-            offset={-80}
-            duration={500}
+            offset={-38}
+            duration={600}
           >
             <FontAwesomeIcon icon={faHome} />
             <p className="link-name">Home</p>
@@ -42,8 +42,8 @@ function Navegation() {
             to="about"
             spy
             smooth
-            offset={-57}
-            duration={500}
+            offset={-38}
+            duration={600}
           >
             <FontAwesomeIcon icon={faNewspaper} />
             <p className="link-name">Sobre</p>
@@ -55,8 +55,8 @@ function Navegation() {
             to="projects"
             spy
             smooth
-            offset={-56}
-            duration={500}
+            offset={-37}
+            duration={700}
           >
             <FontAwesomeIcon icon={faWindowMaximize} />
             <p className="link-name">Projetos</p>

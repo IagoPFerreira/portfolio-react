@@ -11,18 +11,22 @@
   width: 100%;
 }
 
-.header {
+.header, .footer {
   align-items: center;
   background-color: brown;
+  /* border-bottom: 1px solid rgba(110, 110, 110, 0.432); */
   color: black;
   display: flex;
   flex-direction: row;
   font-size: 20pt;
-  height: 60px;
   justify-content: space-around;
-  padding: 10px;
+  padding: 5px;
   position: fixed;
-  width: 98%;
+  width: 100%;
+}
+
+.footer {
+  top: 92%
 }
 
 .header h1, .header h3 {
@@ -31,17 +35,20 @@
   padding: 2px;
 }
 
-#main {
-  margin-top: 80px;
+#home {
+  margin-top: 50px;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 #about {
   background-color: rgb(138, 103, 15);
+  padding: 10px 0;
 }
 
 #projects {
   background-color: rgb(25, 112, 4);
+  padding: 10px 0 25px 0;
 }
 
 .tech-icon {
@@ -125,3 +132,40 @@ td {
   color: black;
   text-decoration: none;
 }
+
+.contacts-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+  width: 100%;
+}
+
+.contacts-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.contacts-container p {
+  align-items: center;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-contact {
+  font-size: 15pt;
+}
+
+.email {
+  font-size: 11pt;
+  margin-left: 3px;
+}
+
+
+/* 
+- rgb(0,54,236) azul escuro
+- rgb(0,182,255) azul claro
+- rgb(102,102,102) cinza claro
+- rgb(49,49,49) cinza escuro
+- rgb(19,19,19) preto
+ */
