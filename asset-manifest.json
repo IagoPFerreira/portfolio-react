@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portifolio-react/static/css/main.a788a80f.chunk.css",
+    "main.js": "/portifolio-react/static/js/main.0a085904.chunk.js",
+    "main.js.map": "/portifolio-react/static/js/main.0a085904.chunk.js.map",
+    "runtime-main.js": "/portifolio-react/static/js/runtime-main.70e053a5.js",
+    "runtime-main.js.map": "/portifolio-react/static/js/runtime-main.70e053a5.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/portifolio-react/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.6f966bae.chunk.js": "/portifolio-react/static/js/2.6f966bae.chunk.js",
+    "static/js/2.6f966bae.chunk.js.map": "/portifolio-react/static/js/2.6f966bae.chunk.js.map",
+    "index.html": "/portifolio-react/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/portifolio-react/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.a788a80f.chunk.css.map": "/portifolio-react/static/css/main.a788a80f.chunk.css.map",
+    "static/js/2.6f966bae.chunk.js.LICENSE.txt": "/portifolio-react/static/js/2.6f966bae.chunk.js.LICENSE.txt",
+    "static/media/foto_Iago_Ferreira.69af658d.jpeg": "/portifolio-react/static/media/foto_Iago_Ferreira.69af658d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70e053a5.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.6f966bae.chunk.js",
+    "static/css/main.a788a80f.chunk.css",
+    "static/js/main.0a085904.chunk.js"
+  ]
+}
