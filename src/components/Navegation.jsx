@@ -18,7 +18,7 @@ function Navegation() {
           to="home"
           spy
           smooth
-          offset={-28}
+          offset={-38}
           duration={200}
         >
           <FontAwesomeIcon icon={faHome} />

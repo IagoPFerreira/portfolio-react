@@ -3,9 +3,9 @@
   background-color: rgb(59,59,59);
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 38px;
   /* margin-bottom: 10px; */
-  padding-top: 10px;
+  padding: 9px 0 3px 0;
 }
 
 #home h1, #home h3 {
@@ -14,6 +14,8 @@
 }
 
 .profile-picture {
+  border: 2px solid rgb(230,227,227);
+  border-radius: 100%;
   height: 100px;
   width: 100px;
 }
@@ -118,15 +120,23 @@ td {
   width: 60%;
 }
 
-.project-card {
+.card {
   align-items: center;
+  background-color: rgb(33,33,33);
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  height: 100px;
-  justify-content: space-around;
+  height: 150px;
+  justify-content: space-between;
   margin: 2% 0;
+  padding: 0;
   width: 30%;
+}
+
+.project-image {
+  height: 50%;
+  margin: 0 0 -8px -0.5px;
+  width: 100.5%;
 }
 
 .card-body {
@@ -138,8 +148,10 @@ td {
 }
 
 .card-title {
-  color: rgb(19,19,19);
-  font-size: 12pt;
+  color: rgb(230,227,227);
+  z-index: 1;
+  font-size: 13pt;
+  padding: 2px;
 }
 
 .btn-group {
