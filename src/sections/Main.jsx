@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import profile from '../images/foto_Iago_Ferreira.jpeg';
+import profile from '../images/profile.jpeg';
 
 function Main() {
   return (
