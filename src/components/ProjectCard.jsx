@@ -15,7 +15,7 @@ function ProjectCard({ modulo }) {
             <ButtonGroup as="section">
               <Button
                 variant="primary"
-                href={deploy}
+                href={deploy || repo}
                 target="_blank"
                 rel="noreferrer"
                 className="repo-links"
