@@ -23,7 +23,6 @@ function ProjectCard({ modulo }) {
               >
                 Aplicação
               </Button>
-              { console.log(image) }
               <Button
                 variant="primary"
                 href={repo}
