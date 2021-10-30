@@ -5,9 +5,11 @@ import { Card, Button, ButtonGroup } from 'react-bootstrap';
 function ProjectCard({ modulo }) {
   return (
     <>
-      {modulo.map(({ name, repo }) => (
+      {modulo.map(({
+        name, image, alt, repo, deploy,
+      }) => (
         <Card className="project-card" as="section">
-          <Card.Img variant="top" src="" />
+          <img variant="top" src={image} alt={alt} className="project-image" />
           <Card.Body as="section">
             <Card.Title as="h5">{name}</Card.Title>
             <ButtonGroup as="section">
@@ -17,9 +19,11 @@ function ProjectCard({ modulo }) {
                 target="_blank"
                 rel="noreferrer"
                 className="repo-links"
+                disabled={!deploy}
               >
                 Aplicação
               </Button>
+              { console.log(image) }
               <Button
                 variant="primary"
                 href={repo}

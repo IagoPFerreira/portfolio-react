@@ -8,7 +8,21 @@ function Projects() {
   return (
     <section id="projects">
       <nav className="projects-navegation">
-        {Object.keys(projectList).map((model) => <Button type="button" variant="secondary" value={model} onClick={({ target }) => setModulo(target.value)}>{model}</Button>)}
+        {Object.keys(projectList).map((model) => {
+          const disable = projectList[model].length > 0;
+
+          return (
+            <Button
+              type="button"
+              variant="secondary"
+              value={model}
+              disabled={!disable}
+              onClick={({ target }) => setModulo(target.value)}
+            >
+              {model}
+            </Button>
+          );
+        })}
       </nav>
       <section className="projects-container">
         <ProjectCard modulo={projectList[modulo]} />
