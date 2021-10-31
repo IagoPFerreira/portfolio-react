@@ -14,7 +14,7 @@ function Skills({ skills }) {
         {skills[stack].map(({ tech, image }, index) => {
           const line = index % 2 === 0 ? 'par' : 'odd';
           return (
-            <tr className={`${line}`}>
+            <tr className={`${line}`} key={tech}>
               <td>
                 { tech }
                 <img className="tech-icon" alt={`Tech-${tech}`} src={image} />

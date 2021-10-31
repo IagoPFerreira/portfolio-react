@@ -16,6 +16,7 @@ function Projects() {
               type="button"
               variant="secondary"
               value={model}
+              key={model}
               disabled={!disable}
               onClick={({ target }) => setModulo(target.value)}
             >

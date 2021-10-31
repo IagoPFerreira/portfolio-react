@@ -8,7 +8,7 @@ function ProjectCard({ modulo }) {
       {modulo.map(({
         name, image, alt, repo, deploy,
       }) => (
-        <Card className="project-card" as="section">
+        <Card className="project-card" as="section" key={name}>
           <img variant="top" src={image} alt={alt} className="project-image" />
           <Card.Body as="section">
             <Card.Title as="h5">{name}</Card.Title>
@@ -34,11 +34,6 @@ function ProjectCard({ modulo }) {
               </Button>
             </ButtonGroup>
           </Card.Body>
-
-          {/* <section className="project-card"> */}
-          {/* <h5></h5> */}
-
-          {/* </section> */}
         </Card>
       ))}
     </>
