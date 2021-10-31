@@ -20,10 +20,13 @@ const projectList = {
       image: 'https://github.com/IagoPFerreira/pixels-art/raw/main/pixels-art.png',
       deploy: 'https://iagopferreira.github.io/pixels-art/',
     },
-    // {
-    //   name: 'GITHUB',
-    //   repo: 'https://github.com/IagoPFerreira',
-    // },
+    {
+      name: 'To Do List',
+      repo: 'https://github.com/IagoPFerreira/To-do-list',
+      alt: 'Demonstrando o inicio do projeto to do list, com botões de interação e um campo para digitar as tarefas',
+      image: 'https://github.com/IagoPFerreira/To-do-list/blob/main/to-do-list.png',
+      deploy: 'https://iagopferreira.github.io/to-do-list/',
+    },
     // {
     //   name: 'GITHUB',
     //   repo: 'https://github.com/IagoPFerreira',
