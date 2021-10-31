@@ -52,7 +52,6 @@
 }
 
 .skills-tables table {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   height: fit-content;
@@ -171,6 +170,14 @@ td {
 }
 
 @media screen and ( max-width : 1010px ) {
+  .App {
+    width: 101%;
+  }
+  
+  .formation, .skills, #home {
+    padding: 2%;
+  }
+
   .card {
     align-items: center;
     background-color: rgb(33,33,33);
@@ -193,6 +200,10 @@ td {
 }
 
 @media screen and ( max-width : 790px ) {
+  .formation, .skills, #home {
+    padding: 2%;
+  }
+
   .projects-navegation {
     display: flex;
     justify-content: space-around;
@@ -222,6 +233,14 @@ td {
 }
 
 @media screen and ( max-width : 550px ) {
+  .App {
+    width: 102%;
+  }
+
+  body {
+    padding: 10px;
+  }
+
   #about {
     align-items: center;
     color: rgb(230, 227, 227);
@@ -230,6 +249,10 @@ td {
     justify-content: space-around;
     padding: 10px 0;
     width: 100%;
+  }
+
+  .formation, .skills, #home {
+    padding: 2%;
   }
 
   .skills-tables {
@@ -242,7 +265,7 @@ td {
     display: flex;
     justify-content: space-around;
     padding: 2% 0;
-    width: 100%;
+    width: 95%;
   }
 
   .projects-container {
@@ -263,5 +286,11 @@ td {
     margin: 2% 0;
     padding: 0;
     width: 55%;
+  }
+}
+
+@media screen and ( max-width : 355px ) {
+  .App {
+    width: 103%;
   }
 }
