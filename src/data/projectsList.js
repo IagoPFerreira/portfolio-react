@@ -22,15 +22,18 @@ const projectList = {
     },
     {
       name: 'To Do List',
-      repo: 'https://github.com/IagoPFerreira/To-do-list',
+      repo: 'https://github.com/IagoPFerreira/to-do-list',
       alt: 'Demonstrando o inicio do projeto to do list, com botões de interação e um campo para digitar as tarefas',
-      image: 'https://github.com/IagoPFerreira/To-do-list/blob/main/to-do-list.png',
+      image: 'https://github.com/IagoPFerreira/IagoPFerreira.github.io/raw/main/to-do-list/to-do-list.png',
       deploy: 'https://iagopferreira.github.io/to-do-list/',
     },
-    // {
-    //   name: 'GITHUB',
-    //   repo: 'https://github.com/IagoPFerreira',
-    // },
+    {
+      name: 'Meme Generator',
+      repo: 'https://github.com/IagoPFerreira/meme-generator',
+      alt: 'Demonstrando o inicio do projeto meme generator, com 4 botões de pré-seleção de bordas para as imagens, um campo para digitar as frases dos memes, um botão para inserir imagens do computador e 4 imagens pré-definidas',
+      image: 'https://github.com/IagoPFerreira/meme-generator/raw/main/images/meme-generator.png',
+      deploy: 'https://iagopferreira.github.io/meme-generator/',
+    },
     // {
     //   name: 'GITHUB',
     //   repo: 'https://github.com/IagoPFerreira',
