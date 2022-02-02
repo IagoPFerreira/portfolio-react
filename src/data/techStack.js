@@ -50,8 +50,12 @@ const techStack = [
         image: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg',
       },
       {
-        tech: 'Heroku',
-        image: 'https://avatars.githubusercontent.com/u/23211?s=200&v=4',
+        tech: 'Sequelize',
+        image: 'https://seeklogo.com/images/S/sequelize-logo-9A5075DB9F-seeklogo.com.png',
+      },
+      {
+        tech: 'Docker',
+        image: 'https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png',
       },
     ],
   },
@@ -95,6 +99,14 @@ const techStack = [
       {
         tech: 'Trello',
         image: 'https://www.vectorlogo.zone/logos/trello/trello-icon.svg',
+      },
+      {
+        tech: 'Heroku',
+        image: 'https://avatars.githubusercontent.com/u/23211?s=200&v=4',
+      },
+      {
+        tech: 'Vercel',
+        image: 'https://www.svgrepo.com/show/327408/logo-vercel.svg',
       },
     ],
   },
