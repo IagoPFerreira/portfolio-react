@@ -65,6 +65,12 @@ const projectList = {
       image: 'https://github.com/IagoPFerreira/cookmaster/raw/main/images/preview.png',
       alt: 'Demonstrando a execução de uma requisição do projeto Cookmaster',
     },
+    {
+      name: 'Task Organizer',
+      repo: 'https://github.com/IagoPFerreira/task-organizer',
+      image: 'https://github.com/IagoPFerreira/task-organizer/raw/main/images/preview.png',
+      alt: 'Demonstrando a execução de uma requisição do projeto Task Organizer',
+    },
   ],
   'Ciencia da computação': [],
 };
