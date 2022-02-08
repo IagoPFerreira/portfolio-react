@@ -72,7 +72,26 @@ const projectList = {
       alt: 'Demonstrando a execução de uma requisição do projeto Task Organizer',
     },
   ],
-  'Ciencia da computação': [],
+  'Ciencia da computação': [
+    {
+      name: 'job-insights',
+      repo: 'https://github.com/IagoPFerreira/job-insights',
+      image: 'https://github.com/IagoPFerreira/job-insights/raw/main/preview.png',
+      alt: 'Demonstrando a execução do código do projeto job-insights',
+    },
+    {
+      name: 'tech-news',
+      repo: 'https://github.com/IagoPFerreira/tech-news',
+      image: 'https://github.com/IagoPFerreira/tech-news/raw/main/preview.png',
+      alt: 'Demonstrando a execução do código do projeto tech-news',
+    },
+    {
+      name: 'Inventory Report',
+      repo: 'https://github.com/IagoPFerreira/inventory-report',
+      image: 'https://github.com/IagoPFerreira/inventory-report/raw/main/preview.png',
+      alt: 'Demonstrando a execução do código do projeto Inventory  report',
+    },
+  ],
 };
 
 export default projectList;
