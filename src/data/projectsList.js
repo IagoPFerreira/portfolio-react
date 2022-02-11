@@ -1,5 +1,5 @@
 const projectList = {
-  Fundamentos: [
+  'HTML, CSS e JS': [
     {
       name: 'Lessons Learned',
       repo: 'https://github.com/IagoPFerreira/lessons-learned',
@@ -40,7 +40,7 @@ const projectList = {
       description: 'Esta é uma aplicação de um gerador de memes, desenvolvido com HTML, CSS e JavaScript.',
     },
   ],
-  'Front-end': [
+  'React.js': [
     {
       name: 'Trybetunes',
       repo: 'https://github.com/IagoPFerreira/trybetunes',
@@ -67,7 +67,7 @@ const projectList = {
     },
 
   ],
-  'Back-end': [
+  'Node.js': [
     {
       name: 'Cookmaster',
       repo: 'https://github.com/IagoPFerreira/cookmaster',
@@ -83,7 +83,7 @@ const projectList = {
       description: 'Esta é uma aplicação Node e foi desenvolvida utilizando a arquitetura de camadas MSC. É uma API para organização de tarefas.',
     },
   ],
-  'Ciencia da computação': [
+  Python: [
     {
       name: 'job-insights',
       repo: 'https://github.com/IagoPFerreira/job-insights',
