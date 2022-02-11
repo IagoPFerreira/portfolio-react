@@ -6,12 +6,13 @@ function ProjectCard({ modulo }) {
   return (
     <>
       {modulo.map(({
-        name, image, alt, repo, deploy,
+        name, image, alt, repo, deploy, description,
       }) => (
         <Card className="project-card" as="section" key={name}>
           <img variant="top" src={image} alt={alt} className="project-image" />
           <Card.Body as="section">
             <Card.Title as="h5">{name}</Card.Title>
+            <Card.Subtitle as="h6">{ description }</Card.Subtitle>
             <ButtonGroup as="section">
               <Button
                 variant="primary"
