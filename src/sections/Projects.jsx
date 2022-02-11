@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import projectList from '../data/projectsList';
 
 function Projects() {
-  const [modulo, setModulo] = useState('HTML, CSS e JavaScript');
+  const [modulo, setModulo] = useState('HTML, CSS e JS');
   return (
     <section id="projects">
       <nav className="projects-navegation">
