@@ -115,7 +115,7 @@ td {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 60%;
+  width: 98%;
 }
 
 .card {
@@ -124,19 +124,20 @@ td {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  height: 150px;
+  height: 330px;
   justify-content: space-between;
   margin: 2% 0;
   padding: 0;
-  width: 30%;
+  width: 32%;
 }
 
 .project-image {
   border-radius: 5px 5px 0 0;
-  height: 50%;
+  height: 45%;
   margin: 0 0 -8px -0.5px;
   width: 100%;
 }
+
 
 .card-body {
   align-items: center;
@@ -179,17 +180,21 @@ td {
     padding: 2%;
   }
 
+  .projects-container {
+    width: 100%;
+  }
+
   .card {
     align-items: center;
     background-color: rgb(33,33,33);
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 300px;
     justify-content: space-between;
     margin: 2% 0;
     padding: 0;
-    width: 40%;
+    width: 45%;
   }
 
   .projects-navegation {
@@ -216,7 +221,8 @@ td {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 80%;
+    margin-bottom: 1%;
+    width: 100%;
   }
 
   .card {
@@ -225,11 +231,11 @@ td {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 300px;
     justify-content: space-between;
-    margin: 2% 0;
+    margin: 5% 0;
     padding: 0;
-    width: 45%;
+    width: 60%;
   }
 }
 
@@ -282,16 +288,24 @@ td {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 275px;
     justify-content: space-between;
     margin: 2% 0;
     padding: 0;
-    width: 55%;
+    width: 90%;
   }
 }
 
 @media screen and ( max-width : 355px ) {
   .App {
     width: 103%;
+  }
+
+  .projects-container {
+    margin-bottom: 8%;
+  }
+
+  .card {
+    height: 330px;
   }
 }
