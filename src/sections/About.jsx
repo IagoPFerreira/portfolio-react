@@ -12,7 +12,7 @@ function About() {
             Biólogo, formado em Ciências Biológicas - Bacharelado e Licenciatura, pelo UniFOA.
           </li>
           <li>
-            Desenvolvedor Web em formação, cursando a
+            Desenvolvedor Web FullStack, formado pela
             {' '}
             <a
               href="https://www.betrybe.com/"
@@ -22,7 +22,7 @@ function About() {
             >
               Trybe
             </a>
-            , atualmente no módulo de Back-end.
+            .
 
           </li>
         </ul>
