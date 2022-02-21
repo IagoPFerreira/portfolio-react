@@ -62,7 +62,7 @@ const projectList = {
       repo: 'https://github.com/IagoPFerreira/characters-card',
       alt: 'Demonstrando a tela inicial do Characters Card, com os cards dos personagens e um botão para adicionar um novo personagem',
       image: 'https://github.com/IagoPFerreira/characters-card/raw/create-characters/characters-card.png',
-      deploy: 'https://IagoPFerreira.github.io/character-card',
+      deploy: 'https://IagoPFerreira.github.io/characters-card',
       description: 'Esta aplicação foi desenvolvida usando React. Ela é uma aplicação onde são exibidos cards de personagens fictícios e informações desses personagens podem ser acessadas nas suas páginas específicas.',
     },
 
