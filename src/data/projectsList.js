@@ -39,6 +39,14 @@ const projectList = {
       deploy: 'https://iagopferreira.github.io/meme-generator/',
       description: 'Esta é uma aplicação de um gerador de memes, desenvolvido com HTML, CSS e JavaScript.',
     },
+    {
+      name: 'Shopping Cart',
+      repo: 'https://github.com/IagoPFerreira/shopping-cart',
+      image: 'https://github.com/IagoPFerreira/shopping-cart/raw/main/shopping-cart.png',
+      alt: 'Demonstrando o inicio do projeto shopping cart, com 8 cards de computadores, com suas descrições técnicas imagens dos computadores e um botão para adiciona-los no carrinho, uma área onde é o carrinho e compras com um botão para esvaziar o carrinho, uma área onde é o carrinho com alguns itens nele e um container com o preço total da compra.',
+      deploy: 'https://iagopferreira.github.io/shopping-cart/',
+      description: 'Essa é uma aplicação de um carrinho de compras onde os itens para adicionar no carrinho são provenientes de uma API do Mercado Livre.',
+    },
   ],
   'React.js': [
     {
