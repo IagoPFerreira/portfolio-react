@@ -85,22 +85,22 @@ const projectList = {
     },
     {
       name: 'Task Organizer',
-      repo: 'https://github.com/IagoPFerreira/task-organizer',
-      image: 'https://github.com/IagoPFerreira/task-organizer/raw/main/images/preview.png',
+      repo: 'https://github.com/IagoPFerreira/task-organizer-bk',
+      image: 'https://github.com/IagoPFerreira/task-organizer-bk/raw/main/images/preview.png',
       alt: 'Demonstrando a execução de uma requisição do projeto Task Organizer',
       description: 'Esta é uma aplicação Node e foi desenvolvida utilizando a arquitetura de camadas MSC. É uma API para organização de tarefas.',
     },
   ],
   Python: [
     {
-      name: 'job-insights',
+      name: 'Job Insights',
       repo: 'https://github.com/IagoPFerreira/job-insights',
       image: 'https://github.com/IagoPFerreira/job-insights/raw/main/preview.png',
       alt: 'Demonstrando a execução do código do projeto job-insights',
       description: 'Este projeto foi desenvolvido utilizando Python. Neste projeto foram implementadas análises a partir de um conjunto de dados sobre empregos.',
     },
     {
-      name: 'tech-news',
+      name: 'Tech News',
       repo: 'https://github.com/IagoPFerreira/tech-news',
       image: 'https://github.com/IagoPFerreira/tech-news/raw/main/preview.png',
       alt: 'Demonstrando a execução do código do projeto tech-news',
